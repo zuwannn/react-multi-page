@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import { Navigation } from "./components";
+import { Navigation, Footer } from "./components";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Switch>
           
         </Switch>
+        <Footer />  
       </Router>
     </div>
   );
